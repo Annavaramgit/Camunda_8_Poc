@@ -1,0 +1,22 @@
+[
+    {
+      "title": "Directs the control or uses heavy vehicles",
+      "description": "Selecting this would qualify you as an OPERATOR who is a recognized participant in the chain of responsibility and come under NHVR Compliance."
+    },
+    {
+        "title": "Employes Heavy Vehicle Driver(s)",
+        "description": "Selecting this would qualify you as an EMPLOYER who is a recognized participant in the chain of responsibility and come under NHVR Compliance."
+    },
+    {
+        "title": "Contracts Transport Activities to external / other parties",
+        "description": "Selecting this would qualify you as an PRIME CONTRACTOR who is a recognized participant in the chain of responsibility and come under NHVR Compliance."
+      },
+      {
+        "title": "Schedules transport of goods in Heavy Vehicles and / or Scehdules Heavy Vehicles Driver's work",
+        "description": "Selecting this would qualify you as an SCHEDULER who is a recognized participant in the chain of responsibility and come under NHVR Compliance."
+      }
+     
+
+    
+  ]
+  

@@ -1,0 +1,41 @@
+server:
+  port: 8086
+
+spring:
+  application:
+    name: CoRSafe-poc
+  datasource:
+    url: jdbc:oracle:thin:@localhost:1521:XE
+    username: SYSTEM
+    password: root
+
+  jpa:
+    hibernate:
+      ddl-auto: update
+    show-sql: true
+    properties:
+      hibernate.format_sql: true
+
+
+
+# oauth2 client configuration
+#google configuration
+
+zeebe.client:
+  cloud:
+
+    region: dsm-1
+    clusterId: 6feae57c-2f49-4861-a383-7c43f82db777
+    clientId: Ugi1JUkRFbFh~fvgVLvvSj3dOCW-eZyq
+    clientSecret: LlNJVxsa.wCdUH0RHJ1wKyfIoLXiR-RlP0B~oo0WzkiRvbwRjO_b.AQzX638zFfz
+
+
+
+# WebClient properties
+webclient:
+    base-url: https://login.cloud.camunda.io
+
+#razorpay:
+#  key.id: rzp_test_f0aOtbLVkyCYpW
+#  secret.key: CtqlYL8CjAWUOipcKFJqmSlq
+

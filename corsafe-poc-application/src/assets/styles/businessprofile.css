@@ -1,0 +1,50 @@
+.container{
+    background-color: #bdbdbd;
+    height: 100%; 
+    display: flex; 
+}
+
+
+.list-items{
+    margin-top: 10px;
+    display: flex;
+    gap: 10px;
+    flex-direction: column;
+}
+.items{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 3px;
+    position: relative;
+}
+.numbers{
+    position: absolute;
+    left: 14px;
+    font-size: 12px;
+}
+.details{
+    display: flex;
+    flex-direction: column;
+    /* gap: 0; */
+   
+}
+.checklist{
+    display: flex;
+    flex-direction: row;
+    
+}
+.details h5 {
+    margin-bottom: 2px;
+}
+
+.details p {
+    font-size: 12px;
+    margin: 0; 
+}
+.btn{
+    margin: 20px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
